@@ -4,14 +4,14 @@ import './App.css';
 import Hello from './component/hello';
 import Learning from './component/learning';
 import Hook from './component/Hook';
+import Check from './component/Check';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <Hook/>
+        <Check/> 
       </header>
     </div>
   );
