@@ -1,20 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Hello from './component/hello';
-import Learning from './component/learning';
-import Hook from './component/Hook';
-import Check from './component/Check';
 
+class App extends React.Component{
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Learning/> 
-      </header>
-    </div>
-  );
+  render(){
+    return(
+      <div className='App'>
+        <h1>Hello Greg House!</h1>
+        <div>
+          <form>
+            <div className='form-group'>
+              <label> User name:</label><br></br>
+              <input type='text' name='username'></input><br></br>
+              <button type='submit'>Submit</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    )
+  }
+
 }
 
 export default App;
